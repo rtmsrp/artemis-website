@@ -51,6 +51,9 @@
     }
 
     function openNav() {
+        document.body.classList.remove("topNavOpen");
+        var topNavToggle = document.getElementById("topNavToggle");
+        if (topNavToggle) topNavToggle.setAttribute("aria-expanded", "false");
         document.body.classList.add("navOpen");
         if (navScrim) navScrim.hidden = false;
     }

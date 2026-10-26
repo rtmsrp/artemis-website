@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artemis Roleplay | Organization SOP</title>
+    <meta name="description" content="Organization and gang standard operating procedures for Artemis Roleplay.">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="siteHeader">
+        <div class="headerInner">
+            <div class="headerLead">
+                <a class="brand" href="index.html">
+                    <img class="brandLogo" src="logo.png" alt="Artemis Roleplay" width="48" height="48">
+                </a>
+                <nav class="topNav" id="topNavMount" aria-label="Primary"></nav>
+            </div>
+            <div class="headerActions">
+                <button class="searchTrigger" id="searchTrigger" type="button" aria-label="Search organization SOP" aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K">
+                    <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
+                        <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                    <span class="searchTriggerText">Search SOP</span>
+                    <kbd class="searchKbd" aria-hidden="true"><span class="searchKbdMod">Ctrl</span>K</kbd>
+                </button>
+                <button class="topNavToggle" id="topNavToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="topNavMount">Menu</button>
+                <button class="menuToggle" id="menuToggle" type="button" aria-label="Open sections">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="navScrim" id="navScrim" hidden></div>
+
+    <div class="page" id="top">
+        <div class="pageBanner" aria-hidden="true">
+            <div class="bannerGlow"></div>
+            <img class="bannerLogo" src="logo.png" alt="" width="180" height="180">
+        </div>
+
+        <div class="pageShell">
+            <div class="pageHeading">
+                <p class="pageEyebrow">Artemis Roleplay</p>
+                <h1 class="pageTitle">Organization SOP</h1>
+            </div>
+
+            <div class="layout">
+                <nav class="sideNav" id="sideNav" aria-label="Organization sections">
+                    <div class="navCard">
+                        <p class="navLabel">Sections <span class="navCount" id="navCount"></span></p>
+                        <ul class="navList" id="navList"></ul>
+                    </div>
+                </nav>
+
+                <main class="content">
+                    <section class="hero">
+                        <p class="heroEyebrow">Welcome</p>
+                        <h2 class="heroTitle">Before You Organize</h2>
+                        <p class="heroLead">
+                            These procedures cover verified gangs, motorcycle clubs, territory, war, and discipline in Artemis Roleplay.
+                            Every gang and every member must follow city laws and this SOP with no exceptions.
+                            Keep this page bookmarked and review updates when they are announced.
+                        </p>
+                        <div class="notice">
+                            Staff may remove gang whitelist, suspend a gang, or disband a gang at any time when conduct harms the city, immersion, or other citizens.
+                        </div>
+                    </section>
+
+                    <article class="ruleSection open" id="verification" data-title="Verification and New Gangs">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Verification and New Gangs</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>New gangs begin with a 30 day grace period before they may apply to become verified. That window shows staff and the community how active the group is and what impact it has in the city.</p>
+                            <ul>
+                                <li>Applicants must have at least 5 active members.</li>
+                                <li>Each of those members must hold Artemis Roleplay citizenship for at least 15 days.</li>
+                                <li>If either requirement is missing, the application is turned away until both are met.</li>
+                            </ul>
+                            <p>Once verification is approved, the gang enters a 30 day probation. During probation a gang only receives 2 strikes. A second strike during probation can lead to disbandment.</p>
+                            <p>After probation ends, the minimum active member requirement drops to 4.</p>
+                            <ul>
+                                <li>If activity falls below the required amount, the gang receives a warning and 30 days to improve.</li>
+                                <li>If activity does not improve after those 30 days, the gang is disbanded.</li>
+                                <li>A disbanded gang may reapply after 30 days with stronger activity or more members.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="roster" data-title="Gang Roster">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Gang Roster</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <ul>
+                                <li>Each gang is limited to 1 leader and a maximum of 15 members. Member caps may change.</li>
+                                <li>The gang leader is responsible for keeping the roster current.</li>
+                                <li>Each of your characters may only belong to one gang. You may not place separate characters in different gangs or in the same gang.</li>
+                                <li>New recruits must be active Artemis Roleplay citizens for at least 15 days before joining a gang. This helps prevent herd recruitment.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="attireColors" data-title="Gang Attire and Colors">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Gang Attire and Colors</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Gang colors and attire are a clear way to identify your gang in the city.</p>
+                            <ul>
+                                <li>Colors and attire must be reported to government and must be unique to your gang.</li>
+                                <li>Two gangs may not share the same color.</li>
+                                <li>Gangs do not need to wear colors or attire at all times, except during a gang war, when colors distinguish the conflicting sides. The same rule applies to vehicle colors during war.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="mcColors" data-title="MC Colors">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">MC Colors</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Motorcycle clubs are not defined by a single assigned color. An MC must wear a minimum three piece patch. Those patches are the club colors:</p>
+                            <ul>
+                                <li>The top rocker shows the club name.</li>
+                                <li>The centerpiece shows the club symbol.</li>
+                                <li>The bottom rocker states the club territory, along with an MC back.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="alliesWar" data-title="Allies and Declaring War">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Allies and Declaring War</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <div class="subBlock">
+                                <h3 class="subTitle">Allies</h3>
+                                <ul>
+                                    <li>A gang may hold 1 alliance. The same limit applies during gang wars.</li>
+                                    <li>An alliance must be with one full gang, not scattered members from several gangs.</li>
+                                    <li>Allies must be made known to staff and government.</li>
+                                </ul>
+                            </div>
+                            <div class="subBlock">
+                                <h3 class="subTitle">Declaring War</h3>
+                                <ul>
+                                    <li>War must be declared in person by the leaders of both sides, with their rosters present, so terms can be negotiated.</li>
+                                    <li>The negotiation scene and the first attack scene must be separate.</li>
+                                    <li>Each side may bring 1 allied gang, and that ally must be named during negotiation.</li>
+                                    <li>Allied groups still count toward number limits and must follow server rules and gang war rules.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="warMechanics" data-title="War Mechanics and Rules">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">War Mechanics and Rules</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Wars run on a storm cycle: 1 attack and 1 retaliation per storm for 7 days.</p>
+                            <ul>
+                                <li>All war attacks must take place on gang turf or territory.</li>
+                                <li>The first attack may only happen after negotiation and terms are set, and only on either side’s turf or territory.</li>
+                                <li>If the defending gang fails to retaliate within 24 hours, the war ends and the attacking gang wins.</li>
+                                <li>Gang leaders may break the cycle at any time within those 24 hours by requesting an in person meeting to call for peace or forfeit.</li>
+                                <li>Gang wars are 8 v 8 in the relevant gang territory. If a compound is breached or compromised, the fight may escalate to 10 v 10.</li>
+                                <li>Once a gang member is flat backed, that member cannot return until the next fight, whether that is an attack or a retaliation.</li>
+                                <li>If a gang member is down and injured, a fellow member may pick them up, take them to hospital for treatment, and return them to the fight.</li>
+                                <li>During a gang war it is strictly prohibited to use /911 or /HELP to get revived.</li>
+                                <li>All gang members and allies must wear gang colors or attire during war.</li>
+                                <li>Civilians should stay out of war zones. Gang members and staff are not responsible for civilian safety in those areas.</li>
+                                <li>Outside participants who inject themselves into a war they are not part of will be handled by staff. Gang members and staff are not responsible for their safety.</li>
+                                <li>If vehicles bearing the color of an attacking or retaliating gang enter a gang turf, that presence may be pressed and escalated to violence.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="leoDuringWar" data-title="Law Enforcement During War">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Law Enforcement During War</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <ul>
+                                <li>During an attack or defense on gang turf, initiation rules are waived until the scene is complete.</li>
+                                <li>If law enforcement or EMS arrives, it is under their own choice.</li>
+                                <li>Violence should be the last step when dealing with officers who enter an active gang war. Law enforcement is trained not to shoot on sight, and gangs must follow the same restraint.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="territory" data-title="Territory and Engagement">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Territory and Engagement</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Anything you do in another gang’s territory is under your own discretion.</p>
+                            <div class="subBlock">
+                                <h3 class="subTitle">Territory Engagement</h3>
+                                <p>Gang members who loiter or act in another gang’s territory, such as selling drugs or committing crime, can be treated as provocation or contest by the gang that owns that turf.</p>
+                                <ul>
+                                    <li>Territory owners may press opposing members off their turf, and that press can lead to violence.</li>
+                                    <li>Because this is not a declared war, regular Artemis Roleplay rules apply, including 15 seconds of interaction and the rule of 4 (4 v 4).</li>
+                                    <li>If you want to move into territory already held by another gang, speak with that gang about sharing. The owning gang may set demands for sharing.</li>
+                                    <li>Sharing talks must happen face to face between gang leaders and their members, covering the area and any demands. Sharing territory is not an alliance.</li>
+                                </ul>
+                            </div>
+                            <div class="subBlock">
+                                <h3 class="subTitle">Territory Contest</h3>
+                                <ul>
+                                    <li>You may contest another gang’s section of territory by invading and claiming it through word of mouth, public posts, or acts of violence. The 15 second interaction rule still applies. Contests are settled through gang war rules.</li>
+                                    <li>You may contest only 1 square block at a time. The contested area is set when war is declared.</li>
+                                    <li>When you contest territory, the opposing gang may counter attack at any time.</li>
+                                    <li>You cannot take over an entire gang’s territory. A gang must be left with at least 4 square blocks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="motorcycleClubs" data-title="Motorcycle Clubs">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Motorcycle Clubs</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <div class="subBlock">
+                                <h3 class="subTitle">MC Territory</h3>
+                                <p>Unlike street gangs, MC territory is not defined by sprays. Clubs identify through their three piece patch colors, including a bottom rocker that states territory.</p>
+                            </div>
+                            <div class="subBlock">
+                                <h3 class="subTitle">State Dominance and Territory</h3>
+                                <p>If another MC wears the same club location or territory on its bottom rocker, that can lead to conflict. Engagement and contest rules still apply. The winning MC requires the losing club to change its bottom rocker.</p>
+                            </div>
+                            <div class="subBlock">
+                                <h3 class="subTitle">1% Patches</h3>
+                                <p>1% patches may only be worn by state dominant MCs in Artemis. Those patches must be earned by becoming one of the more active and dominant clubs in the city.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="strikes" data-title="Strikes and Penalizations">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Strikes and Penalizations</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Artemis Roleplay uses a 3 strike system for gangs. Gang leaders are expected to keep their members inside server rules.</p>
+                            <table class="schedule">
+                                <thead>
+                                    <tr>
+                                        <th>Offense</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>First offense</td><td>Verbal warning for a rule break</td></tr>
+                                    <tr><td>Second offense</td><td>Strike 1, 7 day suspension</td></tr>
+                                    <tr><td>Third offense</td><td>Strike 2, loss of all gang perks and a 14 day suspension</td></tr>
+                                    <tr><td>Fourth offense</td><td>Disbandment</td></tr>
+                                </tbody>
+                            </table>
+                            <ul>
+                                <li>All strikes reset to Strike 1 level after 15 days.</li>
+                                <li>If no further discipline is received after 30 days, the gang resets back to warning level.</li>
+                                <li>After 40 days the gang may become eligible for perks again once it has returned to warning level.</li>
+                                <li>Staff may remove gang whitelist at any time for any reason, including disbandment or a ban from the server.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="ruleSection" id="suspension" data-title="Suspension Notes">
+                        <button class="ruleHeader" type="button">
+                            <h2 class="ruleTitle">Suspension Notes</h2>
+                            <span class="ruleChevron" aria-hidden="true">▾</span>
+                        </button>
+                        <div class="ruleBody">
+                            <p>Staff may suspend or disband a gang at any time. When a gang is placed on suspension, members may not affiliate with one another on a gang level for a duration that is typically 2 weeks. Exact length is set by staff.</p>
+                            <p>During suspension the following applies:</p>
+                            <ul>
+                                <li>No gang activity of any kind, including entering enemy turfs, selling drugs as a gang, or retaliating as a gang.</li>
+                                <li>No gang colors or representation. Colors include vehicles, clothing, and face covers. Representation includes gang signs or posting or yelling your gang name in any context.</li>
+                                <li>You may defend yourself if another gang attacks you, but only as personal defense, not as gang affiliated retaliation.</li>
+                                <li>All perks tied to the in game roster are removed.</li>
+                                <li>Perks are not restored automatically after 40 days. Restoration depends on gang management review and the gang’s activity during that period.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <p class="footerNote">
+                        These organization procedures are subject to change and revision at any time with notice.
+                        Keep this page bookmarked and review updates when announced.
+                    </p>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div class="searchOverlay" id="searchOverlay" hidden>
+        <div class="searchDialog" role="dialog" aria-modal="true" aria-labelledby="searchDialogTitle">
+            <h2 class="srOnly" id="searchDialogTitle">Search organization SOP</h2>
+            <div class="searchField">
+                <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
+                    <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+                <input
+                    class="searchModalInput"
+                    id="searchModalInput"
+                    type="text"
+                    placeholder="Search sections or keywords..."
+                    autocomplete="off"
+                    spellcheck="false"
+                    role="combobox"
+                    aria-expanded="true"
+                    aria-controls="searchResults"
+                    aria-autocomplete="list"
+                    aria-describedby="searchMeta">
+                <kbd class="searchKbd" aria-hidden="true">Esc</kbd>
+            </div>
+            <div class="searchMeta" id="searchMeta">
+                <span id="searchCount">0 sections</span>
+                <span class="searchMetaHint">Enter to jump</span>
+            </div>
+            <ul class="searchResults" id="searchResults" role="listbox" aria-label="Organization sections"></ul>
+            <p class="searchEmpty" id="searchEmpty" hidden>No sections matched your search.</p>
+            <div class="searchFooter">
+                <span><kbd class="searchKbd">↑</kbd><kbd class="searchKbd">↓</kbd> navigate</span>
+                <span><kbd class="searchKbd">↵</kbd> open section</span>
+                <span><kbd class="searchKbd">Esc</kbd> close</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="nav.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

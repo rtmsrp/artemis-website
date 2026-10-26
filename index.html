@@ -14,13 +14,12 @@
 <body>
     <header class="siteHeader">
         <div class="headerInner">
-            <a class="brand" href="#top">
-                <img class="brandLogo" src="logo.png" alt="Artemis Roleplay" width="48" height="48">
-                <span class="brandText">
-                    <span class="brandName">Artemis</span>
-                    <span class="brandTag">Roleplay</span>
-                </span>
-            </a>
+            <div class="headerLead">
+                <a class="brand" href="index.html">
+                    <img class="brandLogo" src="logo.png" alt="Artemis Roleplay" width="48" height="48">
+                </a>
+                <nav class="topNav" id="topNavMount" aria-label="Primary"></nav>
+            </div>
             <div class="headerActions">
                 <button class="searchTrigger" id="searchTrigger" type="button" aria-label="Search laws" aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K">
                     <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -30,6 +29,7 @@
                     <span class="searchTriggerText">Search laws</span>
                     <kbd class="searchKbd" aria-hidden="true"><span class="searchKbdMod">Ctrl</span>K</kbd>
                 </button>
+                <button class="topNavToggle" id="topNavToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="topNavMount">Menu</button>
                 <button class="menuToggle" id="menuToggle" type="button" aria-label="Open sections">☰</button>
             </div>
         </div>
@@ -605,6 +605,7 @@
         </div>
     </div>
 
+    <script src="nav.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
