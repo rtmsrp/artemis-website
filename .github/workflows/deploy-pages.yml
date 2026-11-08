@@ -33,6 +33,7 @@ jobs:
             -name '*.html' -o \
             -name '*.css' -o \
             -name '*.js' -o \
+            -name '*.json' -o \
             -name '*.png' -o \
             -name '*.jpg' -o \
             -name '*.jpeg' -o \
@@ -41,6 +42,12 @@ jobs:
             -name '*.webp' -o \
             -name '*.gif' \
           \) -exec cp {} _site/ \;
+          for dir in */; do
+            case "$dir" in
+              .github/|_site/) continue ;;
+            esac
+            cp -r "$dir" _site/
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
